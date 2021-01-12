@@ -35,5 +35,19 @@
 }
 
 body {
-  font-family: 'Fira Code'
+  font-family: 'Fira Code', sans-serif
+}
+
+@media (max-width: 800px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .btnLarge{
+    width: 100%;
+  }
+
+  .profilePicture{
+    width: 50vw;
+  }
 }
