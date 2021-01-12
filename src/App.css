@@ -21,12 +21,19 @@
   background-color: #1b1b1b;
   border: none;
   padding: 30px;
-  margin: 30px;
+  margin: 10px;
   border-radius: 10px;
   display: block;
   color: white;
+  font-size: 20px;
 }
 
-b {
-  
+.colorGradient{
+  background: linear-gradient(90deg,#7876ff,#41f12c);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+body {
+  font-family: 'Fira Code'
 }
