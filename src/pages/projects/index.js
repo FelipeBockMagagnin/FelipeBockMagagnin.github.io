@@ -8,33 +8,31 @@ export default function Projects() {
     <div className='flexDivCenter'>
       <HomeButton />
 
-
-      <a className='card withoutTextDecoration' href='https://github.com/FelipeBockMagagnin/BeTheHero' target='__blank' >
-        <img src={bethehero} className='cardImage' />
-
-        <div className='cardBody'>
-          BeTheHero
-
-          <div className='tagContainer'>
-            <div className='tag'>
-              Node.js
+      {projects.map(project => {
+        console.log(project)
+        return (
+          <a className='card withoutTextDecoration' href={project.link} target='__blank' >
+            <img src={project.image} className='cardImage' alt='project' />
+            <div className='cardBody mt-3'>
+              {project.nome}
+              <div className='tagContainer mt-5'>
+                {project.tags.map(tag => {
+                  return <div className='tag' >{tag}</div>
+                })}
+              </div>
             </div>
-
-            <div className='tag'>
-              React
-            </div>
-
-            <div className='tag'>
-              React Native
-            </div>
-
-            <div className='tag'>
-              Expo
-            </div>
-          </div>
-
-        </div>
-      </a>
+          </a>
+        )
+      })}
     </div>
   );
 }
+
+const projects = [
+  {
+    nome: 'Be The Hero',
+    image: bethehero,
+    link: 'https://github.com/FelipeBockMagagnin/BeTheHero',
+    tags: ['Node.js', 'React', 'React Native', 'Expo']
+  }
+]
