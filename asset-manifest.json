@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dbc94458.chunk.css",
-    "main.js": "/static/js/main.3ad9ff65.chunk.js",
-    "main.js.map": "/static/js/main.3ad9ff65.chunk.js.map",
+    "main.js": "/static/js/main.a6c9cbfa.chunk.js",
+    "main.js.map": "/static/js/main.a6c9cbfa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.eb9e6da7.js",
     "runtime-main.js.map": "/static/js/runtime-main.eb9e6da7.js.map",
     "static/js/2.86cacdda.chunk.js": "/static/js/2.86cacdda.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.dbc94458.chunk.css.map": "/static/css/main.dbc94458.chunk.css.map",
     "static/js/2.86cacdda.chunk.js.LICENSE.txt": "/static/js/2.86cacdda.chunk.js.LICENSE.txt",
+    "static/media/Estewebsite.e845425d.png": "/static/media/Estewebsite.e845425d.png",
     "static/media/dinheiroagora.cdc38a23.png": "/static/media/dinheiroagora.cdc38a23.png",
     "static/media/nodejs-advanced.25b3b685.png": "/static/media/nodejs-advanced.25b3b685.png",
     "static/media/perfil.3eefa308.jpeg": "/static/media/perfil.3eefa308.jpeg",
@@ -19,6 +20,6 @@
     "static/js/runtime-main.eb9e6da7.js",
     "static/js/2.86cacdda.chunk.js",
     "static/css/main.dbc94458.chunk.css",
-    "static/js/main.3ad9ff65.chunk.js"
+    "static/js/main.a6c9cbfa.chunk.js"
   ]
 }
