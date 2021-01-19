@@ -14,7 +14,8 @@ code {
 
 .Global {
   background-color: #000000;
-  min-height: 100vh;  
+  min-height: 100vh;
+  min-width: 100vw;  
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -25,20 +26,36 @@ code {
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 100vh;  
+  min-width: 100vw;
+  min-height: 100vh;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 800px) {
-  .App {
+  .flexDivCenter {
     flex-direction: column;
   }
 
+  .profilePicture{
+    width: 40vw !important;
+  }  
+
   .btnLarge{
-    width: 100%;
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .card{
+    width: 90vw !important;
   }
 
-  .profilePicture{
-    width: 50vw;
+  .flexDivCenter{
+    padding-top: 70px !important;
+  }
+
+  .cardImage{
+    width: 90vw !important;
   }
 }
 
@@ -58,4 +75,16 @@ code {
 
 .mt-3 {
   margin-top: 3px;
+}
+
+.w-50{
+  width: 50%;
+}
+
+.w-60{
+  width: 60%;
+}
+
+.w-80{
+  width: 80%;
 }

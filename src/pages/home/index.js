@@ -16,9 +16,9 @@ export default function Home() {
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center',
   justifyContent: 'center' }}>
-        <Link className='btnLarge withoutTextDecoration' to='/about'>Sobre</Link>
-        <Link className='btnLarge withoutTextDecoration' to='/projects'>Trabalhos</Link>
-        <Link className='btnLarge withoutTextDecoration' to='/contact'>Contato</Link>
+        <Link className='btnLarge withoutTextDecoration' to='/about'><span>Sobre</span></Link>
+        <Link className='btnLarge withoutTextDecoration' to='/projects'><span>Trabalhos</span></Link>
+        <Link className='btnLarge withoutTextDecoration' to='/contact'><span>Contato</span></Link>
 
       </div>
     </div>

@@ -1,11 +1,11 @@
 .profilePicture{
-  width: 20vw;
+  width: 30vw;
   border-radius: 100%;
   border: white solid 2px;
 }
 
 .btnLarge {
-  width: 50%;
+  width: 60%;
   background-color: #1b1b1b;
   border: none;
   padding: 30px;
@@ -16,3 +16,27 @@
   font-size: 20px;
 }
 
+.btnLarge span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnLarge span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btnLarge:hover span {
+  padding-right: 25px;
+}
+
+.btnLarge:hover span:after {
+  opacity: 1;
+  right: 0;
+}

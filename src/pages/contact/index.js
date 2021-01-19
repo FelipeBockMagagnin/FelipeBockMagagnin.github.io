@@ -14,9 +14,9 @@ export default function Contact(){
 
         <br></br>
 
-        <div style={{flex: 1, color: 'white'}}>
-          <a href='https://www.linkedin.com/in/felipe-magagnin/' target='__blank' className='withoutTextDecoration' > <FiLinkedin color='white'/> </a>
-          <a href='https://github.com/FelipeBockMagagnin' target='__blank' className='withoutTextDecoration' > <FiGithub color='white'/> </a>
+        <div style={{flex: 1, color: 'white', marginTop: 10}}>
+          <a href='https://www.linkedin.com/in/felipe-magagnin/' target='__blank' className='withoutTextDecoration' style={{padding: 15}} > <FiLinkedin color='white'/> </a>
+          <a href='https://github.com/FelipeBockMagagnin' target='__blank' className='withoutTextDecoration' style={{padding: 15}}> <FiGithub color='white'/> </a>
         </div>
       </div>
       

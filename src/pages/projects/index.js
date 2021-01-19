@@ -1,6 +1,8 @@
 import React from 'react'
 import HomeButton from '../../components/homeButton'
 import bethehero from '../../images/print1.png'
+import dinheiroAgora from '../../images/dinheiroagora.png'
+import nodejsadvanced from '../../images/nodejs-advanced.png'
 import './styles.css'
 
 export default function Projects() {
@@ -34,5 +36,17 @@ const projects = [
     image: bethehero,
     link: 'https://github.com/FelipeBockMagagnin/BeTheHero',
     tags: ['Node.js', 'React', 'React Native', 'Expo']
+  },
+  {
+    nome: 'Dinheiro Agora',
+    image: dinheiroAgora,
+    link: 'https://github.com/FelipeBockMagagnin/DinheiroAgora-App',
+    tags: ['React Native', 'Expo', 'JavaScript']
+  },
+  {
+    nome: 'Node.js Avançado',
+    image: nodejsadvanced,
+    link: 'https://github.com/FelipeBockMagagnin/DinheiroAgora-App',
+    tags: ['Express', 'Node', 'TDD', 'Typescript', 'Design Patterns']
   }
 ]
