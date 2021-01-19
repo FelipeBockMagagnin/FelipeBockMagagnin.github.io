@@ -3,6 +3,7 @@ import HomeButton from '../../components/homeButton'
 import bethehero from '../../images/print1.png'
 import dinheiroAgora from '../../images/dinheiroagora.png'
 import nodejsadvanced from '../../images/nodejs-advanced.png'
+import estewebsite from '../../images/Estewebsite.png'
 import './styles.css'
 
 export default function Projects() {
@@ -48,5 +49,12 @@ const projects = [
     image: nodejsadvanced,
     link: 'https://github.com/FelipeBockMagagnin/DinheiroAgora-App',
     tags: ['Express', 'Node', 'TDD', 'Typescript', 'Design Patterns']
-  }
+  },
+  {
+    nome: 'Portfólio',
+    image: estewebsite,
+    link: 'https://github.com/FelipeBockMagagnin/FelipeBockMagagnin.github.io',
+    tags: ['React', 'HTML', 'CSS', 'JavaScript', "Responsividade"]
+  },
+
 ]
